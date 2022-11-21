@@ -1,4 +1,74 @@
-p {
-    color: blue;
-    font-size: 100px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+.containerBuscar {
+    position: relative;
+    top: 5px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    position: absolute;
+    display: block;
+    background-color: beige;
+}
+
+input {
+    position: absolute;
+    border-color: brown;
+    width: 300px;
+}
+
+.name {
+    top: 20px;
+}
+
+.btnBuscar {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 100px;
+}
+
+.containerInfo {
+    position: relative;
+    width: 500px;
+    top: 100px;
+    margin: 0 auto;
+}
+
+.divCocktail {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.p1 {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+
+.p2 {
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+
+.p3 {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+
+.image {
+    position: absolute;
+    height: 100px;
+}
+
